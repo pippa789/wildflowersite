@@ -1,0 +1,276 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+html{
+    background-color:rgb(108, 253, 108) ;}
+.wrapper{
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   margin: 0;
+   background-color: #47810e;
+  
+}
+nav{
+   background-color: #47810e;
+   height: 100px;
+}nav ul{
+   list-style-type: none;
+   padding:0;
+   display: flex;
+}
+
+nav a{
+   text-decoration: none;
+   text-align: center;
+   color:rgb(108, 253, 108);
+   display:block;
+   padding: 20px;
+   font-size: 30px;
+   flex: space-evenly;
+   margin: top 50%; 
+}
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+html{
+   background-color: rgb(108, 253, 108);
+}
+section {
+min-height: 100%;
+width: 650;
+background-color:rgb(108, 253, 108);    
+display: flex;
+align-items:center;
+justify-content: center;
+}
+.container{
+width: 70%;
+max-width:1000;
+height: 79%;
+margin:0 auto;
+display: flex;
+align-items:center;
+justify-content:center
+}
+.left{
+   width: 70%;
+   height: 600px;
+   background: url(cover.jpg) no-repeat center / cover;
+   margin: 30px;
+   border-radius: 3px;
+   box-shadow: 0 3px 10px #011d09;
+}
+.right{
+   width: 50%;
+   min-height: 400px;
+   background-color: hsl(44, 79%, 85%);
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 30px;
+   margin-left: -300px;
+   opacity: 85%; 
+   box-shadow: 0 3px 10px #011d09;
+   border-radius: 3px;
+}
+.content{
+   border-radius: 4px;
+   margin-bottom: 5%; 
+}
+.title{ 
+   font-size: 30px;
+   width: 100%;
+   margin-top: 10%;
+   
+}
+.text{
+   margin-top: 20px;
+   font-size: 20px;
+   padding-top: 3%;
+}
+
+/* Page two starts here */
+
+.container2{
+   display:flex;
+   justify-content: space-evenly;
+   width: 100%;
+   margin-top: 60px; 
+}
+
+.item5 {
+   height: 200px;
+   width: 300px;
+   background: url(foxglove.jpg)no-repeat center / cover;
+   font-size: 20px;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   border-style: solid;
+   color: #3efc05;
+   border-color: #47810e;
+}
+
+.item6 {
+   height: 200px;
+   width: 300px;
+   background: url(wildgarlic.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   border-color: #47810e;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+}
+.item7 {
+   
+   height: 200px;
+   width: 300px;
+   background: url(butterflyorchid.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+.container3 {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   margin-top: 20px;
+} 
+.item8 {
+   height: 200px;
+   width: 300px;
+   background: url(cowslip.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow:  10px 10px 10px hsl(137, 81%, 14%);
+   color:#3efc05;
+   border-color: #47810e;
+}
+.item9 {
+   height: 200px;
+   width: 300px;
+   background: url(honeysuckle.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow:  10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+.item10 {
+   
+   height: 200px;
+   width: 300px;
+   background: url(dogviolet.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color:#3efc05;
+   border-color: #47810e;
+}
+.container4 {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   width: 100%;
+}
+.item11 {
+   
+   height: 200px;
+   width: 300px;
+   background: url(celandine.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+.item12{
+   
+   height: 200px;
+   width: 300px;
+   background: url(herbrobert.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color:#3efc05; 
+   border-color: #47810e;
+}
+.item13{
+  
+   height: 200px;
+   width: 300px;
+   background:url(campion.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+/* page three starts here */
+.containertext{
+   display: flex-start;
+   height: 200px;
+   width: 300px;
+}
+.pineapple-t {
+   font-size: 17px;
+   color: black;
+   background-color: cornsilk;
+   height: 200px;
+   width: 300;
+}
+.container5{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 70px;
+}
+
+
+.item14{
+   height: 300px;
+   width: 400px;
+   background: url(pineapple\ weed.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+.item15{
+   height: 300px;
+   width: 400px;
+   background: url(brambleberry.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow:  10px 10px 10px hsl(137, 81%, 14%);
+   color:#3efc05;
+   border-color: #47810e;
+}
+.container6 {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+.item16{
+   height: 300px;
+   width: 400px;
+   background: url(wintercress.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow:  10px 10px 10px hsl(137, 81%, 14%);
+   color: #3efc05;
+   border-color: #47810e;
+}
+.item17{
+   height: 300px;
+   width: 400px;
+   background: url(R-Bay-Willow-8.jpg)no-repeat center / cover;
+   font-size: 20px;
+   border-style: solid;
+   box-shadow: 10px 10px 10px hsl(137, 81%, 14%);
+   color:#3efc05;
+   border-color: #47810e;
+}
